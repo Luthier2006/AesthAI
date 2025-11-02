@@ -21,10 +21,11 @@ app.get("/api", (req, res) => {
 // === Servir frontend buildado ===
 app.use(express.static(path.join(__dirname, "../client/dist")));
 
+// === Para qualquer rota, serve o index.html do frontend ===
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../client/dist/index.html"));
 });
 
 // === Iniciar servidor ===
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => console.log(`✅ Servidor rodando na porta ${PORT}`));
