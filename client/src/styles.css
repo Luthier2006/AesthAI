@@ -1,0 +1,51 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #111827 0%, #0F0F10 100%);
+  color: #F9FAFB;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+header { text-align: center; margin-bottom: 2rem; }
+h1 { color: #7C3AED; }
+
+textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #374151;
+  background: rgba(31,41,55,0.6);
+  color: #F9FAFB;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  min-height: 120px;
+}
+
+.btn-primary {
+  background-color: #7C3AED;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cards-section {
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: rgba(31,41,55,0.7);
+  border-radius: 1.5rem;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 25px rgba(124, 58, 237, 0.4);
+}
