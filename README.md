@@ -52,7 +52,7 @@ git clone https://github.com/your-username/AesthAI.git
 cd AesthAI
 ````
 
-2. Install dependencies
+### 2. Install dependencies
 
 Frontend
 
